@@ -60,7 +60,9 @@
     "st": "^0.5.5",
     "watchify": "^3.7.0",
     "wd": "0.3.12",
-    "webidl2js": "^5.0.0"
+    "webidl2js": "^5.0.0",
+    "sauce-connect-launcher": "^0.13.0",
+    "saucelabs": "^1.0.1"
   },
   "browser": {
     "canvas": false,
