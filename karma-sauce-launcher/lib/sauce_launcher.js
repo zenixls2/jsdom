@@ -141,6 +141,14 @@ var SauceLauncher = function (
     }, 60000)
   }
 
+  options.loggingPrefs = {
+    "driver": "INFO",
+    "server": "OFF",
+    "browser": "FINEST"
+  };
+  console.log('init', options);
+
+
   var start = function (url) {
     console.log('Foooooooooooooo');
     driver
@@ -220,9 +228,11 @@ var SauceLauncher = function (
       }
 
       log.debug('Shutting down the %s driver', browserName)
+
       driver.log('browser').then(logs => {
+        console.log('BROWSER OUTPUT', logs.length);
         for (const log of logs) {
-          console.log('BROWSER:', log);
+          console.log(log);
         }
       })
       .then(() => driver.quit())
