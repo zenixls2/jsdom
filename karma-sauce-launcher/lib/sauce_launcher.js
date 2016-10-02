@@ -142,7 +142,8 @@ var SauceLauncher = function (
   }
 
   options.loggingPrefs = {
-    "browser": "ALL"
+    "browser": "ALL",
+    "driver": "ALL"
   };
   console.log('init', options);
 
