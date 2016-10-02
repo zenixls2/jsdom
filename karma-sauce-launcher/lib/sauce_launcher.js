@@ -227,10 +227,14 @@ var SauceLauncher = function (
 
       log.debug('Shutting down the %s driver', browserName)
 
-      driver.log('browser').then(logs => {
+      driver.logTypes()
+      .then(types => console.log('AVAILABLE LOG TYPES', types))
+      .then(() => driver.log('browser'))
+      .then(logs => {
         console.log('BROWSER OUTPUT', logs.length);
+
         for (const log of logs) {
-          console.log(log);
+          console.log(JSON.stringify(log));
         }
       })
       .then(() => driver.quit())
