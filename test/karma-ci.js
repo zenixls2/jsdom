@@ -1,6 +1,8 @@
 /* eslint no-process-env:0 no-console:0 */
 "use strict";
 
+const karmaSauceLauncher = require("../karma-sauce-launcher");
+
 module.exports = options => {
   // running as a CI job, start chrome using SauceLabs
   // SAUCE_USERNAME and SAUCE_ACCESS_KEY should also be set as environment variables
@@ -8,6 +10,7 @@ module.exports = options => {
 
   console.info("Using SauceLabs username:", process.env.SAUCE_USERNAME);
 
+  options.plugins = [karmaSauceLauncher, ...(options.plugins || [])];
   options.reporters.push("saucelabs");
   options.sauceLabs = {
     testName: "jsdom regular"
@@ -30,3 +33,11 @@ module.exports = options => {
     options.sauceLabs.tags = [process.env.TRAVIS_BRANCH, process.env.TRAVIS_PULL_REQUEST];
   }
 };
+
+/*
+.log('browser').then(logs => {
+  for (const log of logs) {
+    console.log('BROWSER:', log);
+  }
+})
+*/

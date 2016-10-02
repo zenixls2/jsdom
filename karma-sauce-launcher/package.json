@@ -1,0 +1,211 @@
+{
+  "_args": [
+    [
+      "karma-sauce-launcher@latest",
+      "D:\\Users\\J\\Documents\\DOCS\\Projects\\node.js\\jsdomz"
+    ]
+  ],
+  "_from": "karma-sauce-launcher@latest",
+  "_id": "karma-sauce-launcher@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/karma-sauce-launcher",
+  "_nodeVersion": "4.3.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/karma-sauce-launcher-1.0.0.tgz_1462297065896_0.7471343327779323"
+  },
+  "_npmUser": {
+    "email": "mark@zzo.com",
+    "name": "zzo"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "karma-sauce-launcher",
+    "raw": "karma-sauce-launcher@latest",
+    "rawSpec": "latest",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/karma-sauce-launcher/-/karma-sauce-launcher-1.0.0.tgz",
+  "_shasum": "569bf356f7c143a337bba5dcbf5787de0d9a640c",
+  "_shrinkwrap": null,
+  "_spec": "karma-sauce-launcher@latest",
+  "_where": "D:\\Users\\J\\Documents\\DOCS\\Projects\\node.js\\jsdomz",
+  "author": {
+    "email": "vojta.jina@gmail.com",
+    "name": "Vojta Jina"
+  },
+  "bugs": {
+    "url": "https://github.com/karma-runner/karma-sauce-launcher/issues"
+  },
+  "contributors": [
+    {
+      "email": "mark@zzo.com",
+      "name": "Mark Ethan Trostler"
+    },
+    {
+      "email": "chris@saucelabs.com",
+      "name": "Chris Wren"
+    },
+    {
+      "email": "dignifiedquire@gmail.com",
+      "name": "dignifiedquire"
+    },
+    {
+      "email": "dignifiedquire@gmail.com",
+      "name": "Friedel Ziegelmayer"
+    },
+    {
+      "email": "cthewren@gmail.com",
+      "name": "Chris Wren"
+    },
+    {
+      "email": "chriswrendev@gmail.com",
+      "name": "Chris Wren"
+    },
+    {
+      "email": "pkozlowski.opensource@gmail.com",
+      "name": "Pawel Kozlowski"
+    },
+    {
+      "email": "ralf@embarkmobile.com",
+      "name": "Ralf Kistner"
+    },
+    {
+      "email": "taak77@gmail.com",
+      "name": "Takashi Aoki"
+    },
+    {
+      "email": "santiycr@gmail.com",
+      "name": "Santiago Suarez Ordoñez"
+    },
+    {
+      "email": "jack.spirou@target.com",
+      "name": "jackspirou"
+    },
+    {
+      "email": "seb.vincent@gmail.com",
+      "name": "sebv"
+    },
+    {
+      "email": "caitpotter88@gmail.com",
+      "name": "Caitlin Potter"
+    },
+    {
+      "email": "ferrero.nicolas@gmail.com",
+      "name": "yhwh"
+    },
+    {
+      "email": "johannes.wuerbach@googlemail.com",
+      "name": "Johannes Würbach"
+    },
+    {
+      "email": "johannes.wuerbach@googlemail.com",
+      "name": "Johannes Würbach"
+    },
+    {
+      "email": "me@julianmotz.com",
+      "name": "Julian Motz"
+    },
+    {
+      "email": "github.maks3w@virtualplanets.net",
+      "name": "Maks3w"
+    },
+    {
+      "email": "mathieu.c.sabourin@gmail.com",
+      "name": "OniOni"
+    },
+    {
+      "email": "code@nparashuram.com",
+      "name": "Parashuram"
+    },
+    {
+      "email": "code@r.nparashuram.com",
+      "name": "Parashuram N"
+    },
+    {
+      "email": "peter@peterjohanson.com",
+      "name": "Peter Johason"
+    },
+    {
+      "email": "sakhat@gmail.com",
+      "name": "Sahat Yalkabov"
+    },
+    {
+      "email": "shahar.talmi@gmail.com",
+      "name": "Shahar Talmi"
+    }
+  ],
+  "dependencies": {
+    "q": "^1.4.1",
+    "sauce-connect-launcher": "^0.13.0",
+    "saucelabs": "^1.0.1",
+    "wd": "^0.3.4"
+  },
+  "description": "A Karma plugin. Launch any browser on SauceLabs!",
+  "devDependencies": {
+    "eslint-config-standard": "^4.4.0",
+    "eslint-plugin-standard": "^1.3.1",
+    "grunt": "^0.4.1",
+    "grunt-auto-release": "^0.0.6",
+    "grunt-bump": "^0.6.0",
+    "grunt-conventional-changelog": "^5.0.0",
+    "grunt-conventional-github-releaser": "^0.5.0",
+    "grunt-eslint": "^17.3.1",
+    "grunt-karma": "1.x || ^0.12.1",
+    "grunt-npm": "^0.0.2",
+    "jasmine": "^2.3.2",
+    "karma": "1.x || ^0.13.11",
+    "karma-jasmine": "1.x || ^0.3.6",
+    "karma-sauce-launcher": "1.x || *",
+    "load-grunt-tasks": "^3.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "569bf356f7c143a337bba5dcbf5787de0d9a640c",
+    "tarball": "https://registry.npmjs.org/karma-sauce-launcher/-/karma-sauce-launcher-1.0.0.tgz"
+  },
+  "gitHead": "2e8ff42492252766b63295edc52f4024257e9408",
+  "homepage": "https://github.com/karma-runner/karma-sauce-launcher#readme",
+  "keywords": [
+    "karma-plugin",
+    "karma-launcher",
+    "sauce",
+    "labs",
+    "saucelabs"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "dignifiedquire@gmail.com",
+      "name": "dignifiedquire"
+    },
+    {
+      "email": "vojta.jina+npm@gmail.com",
+      "name": "vojtajina"
+    },
+    {
+      "email": "mark@zzo.com",
+      "name": "zzo"
+    }
+  ],
+  "name": "karma-sauce-launcher",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karma-runner/karma-sauce-launcher.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "1.0.0"
+}
