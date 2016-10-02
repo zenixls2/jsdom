@@ -10,7 +10,13 @@ module.exports = options => {
 
   console.info("Using SauceLabs username:", process.env.SAUCE_USERNAME);
 
-  options.plugins = [karmaSauceLauncher, ...(options.plugins || [])];
+  options.plugins = [
+    karmaSauceLauncher,
+    "karma-browserify",
+    "karma-chrome-launcher",
+    "karma-mocha",
+    "karma-mocha-webworker"
+  ];
   options.reporters.push("saucelabs");
   options.sauceLabs = {
     testName: "jsdom regular"
