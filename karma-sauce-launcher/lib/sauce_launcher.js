@@ -41,10 +41,7 @@ function processConfig (helper, config, args) {
     tags: [],
     name: 'Karma Test',
     'tunnel-identifier': tunnelIdentifier,
-    'record-video': false,
-    'record-screenshots': false,
     'device-orientation': null,
-    'disable-popup-handler': true,
     build: build || null,
     public: null,
     customData: {}
