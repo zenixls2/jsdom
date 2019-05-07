@@ -40,10 +40,10 @@ exports["defaultView should be null"] = t => {
   t.done();
 };
 
-exports["location should be null"] = t => {
+exports["location should be blank"] = t => {
   const document = jsdom.jsdom();
   const newDocument = document.implementation.createHTMLDocument();
-  t.strictEqual(newDocument.location, null, "location should be null");
+  t.strictEqual(newDocument.location.href, "about:blank", "location should be blank");
   t.done();
 };
 
